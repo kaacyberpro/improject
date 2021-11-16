@@ -1,6 +1,6 @@
 ---
 #- hosts: "{{ hosts }}"
-- hosts: localhost
-  gather_facts: false
+- hosts: all  
+  become: yes  
   tasks:
-    - action: ping
+   - ping
