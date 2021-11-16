@@ -1,6 +1,5 @@
 ---
 - hosts: "{{ hosts }}"
   gather_facts: false
-  # TASKS
   tasks:
     - ping
