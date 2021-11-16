@@ -1,0 +1,6 @@
+---
+- hosts: '{{ hosts }}'
+ sudo: yes
+ user: '{{ username }}'
+ tasks:
+  - action: ping
